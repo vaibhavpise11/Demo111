@@ -1,1 +1,1 @@
-This contents details of the project.
+This contains details of the project.
