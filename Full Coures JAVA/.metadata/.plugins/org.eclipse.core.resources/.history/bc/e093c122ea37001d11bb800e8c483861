@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class if_else {
+
+	public static void main (String[] args) {
+		
+		int password;
+		
+		System.out.print("Enter your Password :=> ");
+		Scanner obj = new Scanner(System.in);
+		
+		password = obj.nextInt();
+		
+		if(password==6193)
+		{
+			System.out.println("Your Password is correct....");
+			System.out.println("Your Name is Vaibhav Pise...");
+			System.out.println("Contact Number. 7722002257");
+			
+		}
+		else
+		{
+			System.out.println("Sorry..!!!! Your password is incorrect...");
+			System.out.println("Please try again.... Thank You");
+
+		}
+		
+		
+		
+	}
+	
+	
+}

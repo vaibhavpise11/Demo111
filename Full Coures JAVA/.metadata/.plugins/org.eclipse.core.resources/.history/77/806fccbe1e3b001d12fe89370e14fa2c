@@ -1,0 +1,22 @@
+//Q 11 wap  that ask two numbers from user and print greater number among two 
+import java.util.Scanner;
+public class greater_smaller {
+
+	public static void main(String[] args) {
+		int a,b;
+		System.out.println("Enter any two number to compair");
+		Scanner s= new Scanner (System.in);
+		a=s.nextInt();
+		b=s.nextInt();
+		
+		if(a>b)
+		{
+			System.out.println("Greater number is" +  a);
+		}
+		else
+		{
+			System.out.println( "Smaller number is" +  b);
+		}
+		}
+
+}

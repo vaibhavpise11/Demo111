@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class loops {
+
+	public static void main(String[] args) {
+		int password;
+		
+		System.out.println("Enter your password...");
+		
+		Scanner obj = new Scanner (System.in);
+		password = obj.nextInt();
+		if(password==12345) 
+		{
+			System.out.println("Welcome to the Bank of India");
+		}
+		else{
+			System.out.println("Incorrect Password.... Please try again.");
+		}
+	}
+
+}

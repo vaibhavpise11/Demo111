@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+//Q 4 Wap to check if number is even or odd 
+public class even_odd {
+
+	public static void main(String[] args) {
+		int a;
+		System.out.println("Enter any Number.....");
+		
+		Scanner s= new Scanner (System.in);
+		a=s.nextInt();
+		
+		if(a%2==0) {
+			
+		 System.out.println("The Number is Even" +a);}
+		
+		else{
+		
+		 System.out.println("The Number is Odd");
+		
+		}
+		}
+}

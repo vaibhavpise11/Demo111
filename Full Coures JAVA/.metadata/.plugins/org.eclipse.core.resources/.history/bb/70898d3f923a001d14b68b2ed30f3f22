@@ -1,0 +1,18 @@
+//Q 7 wap to check if sales of a person is greater than 10000 then eligible for bonus 
+//else not eligible calculate bonus as 20% of sales 
+public class bonus {
+
+	public static void main(String[] args) {
+	int sales=10000;
+	int bonus;
+	if(sales>=sales)
+	{	
+		System.out.println("Eligible for Bonus...");
+	}
+	else
+	{
+		System.out.println("Not eligible for bonus...");
+
+	}
+		}
+	}

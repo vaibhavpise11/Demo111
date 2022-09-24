@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Addition {
+
+	public static void main(String[] args) {
+		float a,b,c,d;
+		
+		System.out.print("Enter any two Numbers.....");
+		
+		Scanner e=new Scanner (System.in);
+		
+		a=e.nextFloat();
+		b=e.nextFloat();
+		c=e.nextFloat();
+		d= a+b+c ;
+		
+		System.out.print("Sum of two Numbers is......." +c );
+		
+				
+
+	}
+
+}

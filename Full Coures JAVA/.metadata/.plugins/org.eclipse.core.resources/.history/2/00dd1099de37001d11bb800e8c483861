@@ -1,0 +1,9 @@
+
+public class Second {
+	public static void main(String Vaibhav [])
+	{
+		System.out.println("Welcome to my first JAVA program.....");
+
+	}
+
+}

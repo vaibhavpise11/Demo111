@@ -1,0 +1,11 @@
+
+//Q 3 Java Program to Swap Two Numbers
+
+public class swap_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
